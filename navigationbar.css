@@ -1,0 +1,53 @@
+body{
+    margin: 0;
+}
+
+nav{
+    background-color: rgb(30, 30, 30);
+    padding: 15px 25px;
+    box-shadow: 0 0 5px 3px rgba(0, 0, 0, 0.5);
+}
+.brand-container{
+    display: inline-block;
+}
+
+.brand-title{
+    display: inline-block;
+    margin: 0;
+    color: white;
+    font-family: verdana;
+    position: relative;
+    top: -15px;
+}
+
+.links-container{
+    float: right;
+    position: relative;
+    top: 15;
+}
+
+.link{
+    color: white;
+    text-decoration: none;
+    font-family: verdana;
+    margin: 0 15px;
+    transition: 0.2s;
+}
+
+.link:hover{
+    color: gold;
+}
+
+.btn-link{
+    background-color: gold;
+    padding: 10px 25px;
+    font-family: verdana;
+    border-radius: 25px;
+    color: white;
+    transform: 0.2s;
+}
+
+.btn-link:hover{
+    padding: 10px 30px;
+
+}

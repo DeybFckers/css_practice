@@ -1,0 +1,11 @@
+body{
+    margin: 0;
+}
+
+p{
+    margin: 25px 10px;
+    border: solid 2px red;
+    border-radius: 12px;
+    padding: 5px;
+    background: powderblue;
+}

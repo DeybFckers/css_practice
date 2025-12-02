@@ -1,0 +1,60 @@
+body{
+    margin: 0;
+}
+
+nav{
+    width: 300px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgb(30,30,30);
+    border-bottom-right-radius: 25px;
+    border-top-right-radius: 25px;
+    box-shadow: 0 0 5px 3px rgba(0,0,0,0.5);
+}
+
+.brand-container{
+    text-align: center;
+    color: white;
+    font-family: Verdana;
+    padding: 25px 0px;
+}
+
+.brand-title{
+    margin: 0;
+    margin-top: 15px;
+}
+
+.link{
+    display: block;
+    color: white;
+    padding: 15px 26px;
+    text-decoration: none;
+    font-family: verdana;
+    margin: 10px 0;
+    transition: 0.2s;
+}
+
+.link:hover{
+    background: white;
+    color: rgb(30, 30, 30);
+}
+
+.profile-container{
+    color: white;
+    font-family:verdana;
+    margin: 0;
+    padding: 0px 26px;
+    position: absolute;
+    margin: 10px 0;
+    bottom: 0;
+}
+
+.main-container{
+    /*it depends on how long is side bar*/
+    margin-left: 300px;
+    text-align: center;
+}
+
+/* continue 26mins and 06 sec */
