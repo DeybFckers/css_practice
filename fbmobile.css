@@ -1,0 +1,93 @@
+body{
+    margin: 0;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.fb-quote{
+    font-family: Arial;
+    font-weight: normal;
+    margin: 0;
+}
+
+.login-container{
+    width: 385px;
+    box-shadow: 0 0 5px 3px rgba(0,0,0,0.2);
+    margin: 30px auto;
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+input{
+    display: block;
+    width: 100%;
+    outline: none;
+    padding: 15px;
+    font-size: 18px;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    margin-top: 10px;
+}
+
+.btn-login{
+    width: 100%;
+    display: block;
+    margin-top: 15px;
+    padding: 15px 0;
+    font-size: 24px;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: #1877f2;
+}
+
+.forgot{
+    display: block;
+    margin: 15px 0;
+    text-decoration: none;
+    font-family: Arial;
+    color: #1877f2;
+    font-size: 14px;
+}
+
+.forgot:hover{
+    text-decoration: underline;
+}
+
+hr{
+    margin: 25px 0;
+    opacity: 0.2;
+}
+
+.btn-create{
+    margin: 15px auto;
+    display: block;
+    margin-top: 15px;
+    padding: 15px 15px;
+    font-size: 18px;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: #42b72a;
+}
+
+.create-page{
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+.create-page:hover{
+    text-decoration: underline;
+}
+
+.below-text{
+    font-family: Arial;
+    font-size: 14px;
+}
